@@ -1,0 +1,20 @@
+{
+  "name": "aws_lambda_authorizer",
+  "version": "1.0.0",
+  "description": "aws lambda for creating and managing JWTs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SerenityInAllThings",
+  "license": "MIT",
+  "keywords": [
+    "lambda",
+    "aws",
+    "authorizer",
+    "authorization",
+    "authenticator",
+    "authentication",
+    "JWT"
+  ]
+}
