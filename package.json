@@ -1,20 +1,20 @@
 {
-  "name": "aws_lambda_authorizer",
+  "name": "aws-lambda-auth-serenity",
   "version": "1.0.0",
-  "description": "aws lambda for creating and managing JWTs",
-  "main": "index.js",
+  "description": "Serverless lambda for authorization and authentication by Serenity",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no thanks\""
   },
-  "author": "SerenityInAllThings",
-  "license": "MIT",
-  "keywords": [
-    "lambda",
-    "aws",
-    "authorizer",
-    "authorization",
-    "authenticator",
-    "authentication",
-    "JWT"
-  ]
+  "devDependencies": {
+    "@types/aws-lambda": "0.0.22",
+    "@types/node": "^8.5.9",
+    "serverless-domain-manager": "^2.2.2",
+    "serverless-webpack": "^4.0.0",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0"
+  },
+  "author": "Serenity",
+  "license": "MIT"
 }

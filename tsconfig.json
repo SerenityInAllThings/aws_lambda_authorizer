@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": false,
+    "module": "commonjs",
+    "outDir": "./dist/",
+    "rootDir": "./src/",
+    "removeComments": true,
+    "skipLibCheck": true,
+    // "strict": true,
+    // "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "lib": [
+      "es5",
+      "es2015.promise",
+      "es6"
+    ]
+  }
+}
